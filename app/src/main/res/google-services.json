@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "302757934866",
+    "firebase_url": "https://prodology-1fc1b.firebaseio.com",
+    "project_id": "prodology-1fc1b",
+    "storage_bucket": "prodology-1fc1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302757934866:android:053fc7b1ee05a9c8",
+        "android_client_info": {
+          "package_name": "com.prodology.prodology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302757934866-ojc9h40uvlhacrmatvn4upno5s6u30rv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prodology.prodology",
+            "certificate_hash": "25b65062708a815fdae20f96eed7c23286995ebe"
+          }
+        },
+        {
+          "client_id": "302757934866-r4k5i3s9r0ikbgr9ccb2l550u808lmnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTlDOOBwRSMUCjh0upXs658fUvnDK_eR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302757934866-r4k5i3s9r0ikbgr9ccb2l550u808lmnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

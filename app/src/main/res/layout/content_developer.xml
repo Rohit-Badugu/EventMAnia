@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    tools:context="com.prodology.prodology.ContactActivity">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:isScrollContainer="true">
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="40dp"
+            android:text="Rohit Badugu           \nComp. Science V.J.T.I    \n rohit.02@gmail.com \n+91-9699217515    "
+            android:textAlignment="textEnd"
+            android:autoLink="all"
+            android:textColorLink="@android:color/black" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="40dp"
+            android:text="Dharmin Shah           \nComp. Science V.J.T.I    \n dharmin002@gmail.com   \n+91-9819054690     "
+            android:textAlignment="textEnd"
+            android:autoLink="all"
+            android:id="@+id/textView1"
+            android:textColorLink="@android:color/black" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="40dp"
+            android:text="Abhishek Pawar           \nComp. Science V.J.T.I    \n dharmin002@gmail.com   \n+91-9819054690     "
+            android:textAlignment="textEnd"
+            android:autoLink="all"
+            android:id="@+id/textView2"
+            android:textColorLink="@android:color/black" />
+
+    </LinearLayout>
+</ScrollView>

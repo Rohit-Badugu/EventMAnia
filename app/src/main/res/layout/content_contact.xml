@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.prodology.prodology.ContactActivity"
+    android:background="@color/bg1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bg3"
+        android:text="Get in touch with us!"
+        android:id="@+id/contact_text"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bg3"
+        android:text="Any Doubts?..Interested in working? Contact us!"
+        android:paddingLeft="15dp"
+        android:textAlignment="center"
+        android:paddingRight="15dp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_contact_mail_black_24dp"
+        android:id="@+id/mail"
+        android:layout_gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="info@prodology.org"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:autoLink="email"/>
+</LinearLayout>

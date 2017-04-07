@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_laptop_mac_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_dept"
+        android:icon="@drawable/ic_laptop_mac_black_24dp"
+        android:title="Departments" />
+    <item android:title="Highlights">
+        <menu>
+            <item
+                android:id="@+id/nav_system"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                android:title="System" />
+            <item
+                android:id="@+id/nav_games"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Games" />
+        </menu>
+    </item>
+
+
+    <item android:title="Personalize">
+        <menu>
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+
+    <item android:title="Support Us">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_devs"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="Developers" />
+
+        </menu>
+    </item>
+
+</menu>
