@@ -1,0 +1,127 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<style>
+
+ul{
+	background-color:#333;;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+li{
+	position: relative;
+	float: left;
+	font-size: 18px;
+	}
+li a{
+	display: block;
+	color: white;
+	padding:16px;
+	text-decoration: none;
+}
+.right{
+	float: right;
+}
+.active{
+	background-color:#45D85E; 
+}
+
+.seminar{
+	position: absolute;
+	left: 100px;
+	top:100px;
+	opacity: 0.6;
+}
+
+.image{
+	position: relative;
+}
+
+.semtext{
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	left: 110px;
+	top:210px;
+}
+
+.drama{
+	position: absolute;
+	left:650px;
+	top:90px;
+	opacity: 0.6;
+	
+}
+
+.dramatext{
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	left: 600px;
+	top:210px;
+}
+
+.concert{
+	position: absolute;
+	left: 650px;
+	top:405px;
+	opacity: 0.6;
+}
+
+.context{
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	left: 650px;
+	top:505px;
+}
+
+.clgevent{
+	position: absolute;
+	left: 120px;
+	top:405px;;
+	opacity: 0.6;
+}
+
+.clgtext{
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	left: 120px;
+	top:525px;
+}
+
+</style>
+</head>
+<body>
+	<ul>
+ 		<li><a href="#home" class="active">Home</a></li>
+ 		<li><a href="#home">News</a></li>
+ 		<li><a href="#home">About</a></li>
+ 		<ul class="right">
+ 			<li><a href="#home">Login</a></li>
+ 			<li><a href="#home">Signup</a></li>
+ 		</ul>
+	</ul>
+	<div class="image">
+  		<img class="seminar" src="seminar.jpeg">
+  		<h2 class="semtext">Seminar</h2>
+  		<img class="drama" src="drama.png">
+  		<h2 class="dramatext">Drama</h2>
+  		<img class="concert" src="concert.jpeg">
+  		<h2 class="context">Concert</h2>
+  		<img class="clgevent" src="collegeevent.jpeg">
+  		<h2 class="clgtext">College Event</h2>
+
+	</div>	
+</body>
+</html>

@@ -1,0 +1,149 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+
+<style>
+
+body {
+    font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+.group { 
+    position: relative; 
+    margin-bottom: 45px; 
+}
+
+label {
+    color: #999; 
+    font-size: 18px;
+    font-weight: normal;
+    position:absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    -webkit-transition:all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input:focus ~ label, input.used ~ label{
+    top: -20px;
+  -webkit-transform: scale(.75);
+          transform: scale(.75); left: -2px;
+    color: #4a89dc;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bar:before, .bar:after {
+    content: '';
+    height: 2px; 
+    width: 0;
+    position: absolute;
+    background: #4a89dc; 
+    -webkit-transition:all 0.2s ease; 
+    transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-bottom: 1px solid #757575;
+    -webkit-appearance: none;
+    background: #eee;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-bottom: 1px solid #757575;
+    -webkit-appearance: none;
+    background: #eee;
+
+}
+input[type=button] {
+    width:40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    top:50px;
+}
+
+input[type=button]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color : white;
+	color : black ;
+}
+.container{
+	width : 400px;
+	height: 355px;
+	border-radius: 5px;
+	padding : 40px;
+	left : 500px;
+    position: relative;
+    border: 1px solid #777B87;
+    background: #eee;
+}
+
+h1{
+	position: relative;
+	left: 650px;
+	}
+
+a{
+    color: #FC8B8D;
+    font-size: 15px;
+}
+
+a:hover{
+    color:#EC5356;
+}
+
+</style>
+</head>
+<body>
+    <script>
+function myFunction() {
+ window.open("homepg.html","_self");
+}
+</script>
+    	<h1>Login</h1> 
+    <div class="container">
+    <form>
+        <div class="group">
+        <input type="text" id="uname" name="uname"><span class="bar"></span><label for="uname" style=" font-size: 18px">User Name</label>
+    </div>
+    <br>
+    <div class="group">
+       <input type="password" id="password" name="password"><span class="bar"></span><label for="password" style=" font-size: 18px">Password</label>
+       </div>
+       <a href="#forgot">Forgot Password?</a>
+        <input type="button" value="Login" onclick="myFunction()">
+    </form>
+</div>
+</body>
+</html>
